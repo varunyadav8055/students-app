@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "506177492125",
+    "project_id": "collegedatabase-e91cd",
+    "storage_bucket": "collegedatabase-e91cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506177492125:android:c99d1e274e7eaf96ce7074",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_college_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4blhdkghoy012doNdiY0Kz2n13dy3x6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506177492125:android:7aa3a6e6c871aaf4ce7074",
+        "android_client_info": {
+          "package_name": "com.example.students_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4blhdkghoy012doNdiY0Kz2n13dy3x6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
