@@ -18,18 +18,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 }
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options:
-     const FirebaseOptions(
-    apiKey: 'AIzaSyB4blhdkghoy012doNdiY0Kz2n13dy3x6Qvarun8055',
-    appId: '1:506177492125:android:c99d1e274e7eaf96ce7074',
-    messagingSenderId: '506177492125',
-    projectId: 'collegedatabase-e91cd',
-    databaseURL: 'xxxxxxxxxxxxxxxxxxx',
-    storageBucket: 'collegedatabase-e91cd.appspot.com',
-    ),
-  );
+  
 
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
